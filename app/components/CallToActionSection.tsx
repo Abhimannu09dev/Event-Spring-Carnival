@@ -2,7 +2,7 @@ import { Ticket, Users } from 'lucide-react';
 
 export default function CallToActionSection() {
   return (
-    <section className="py-16 px-4 bg-gradient-to-r from-pink-500 via-yellow-500 to-green-500">
+    <section className="py-16 px-4 bg-gradient-to-r from-pink-500 via-yellow-500 to-green-500" id='tickets'>
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
           Don't Miss Out!

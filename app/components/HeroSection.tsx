@@ -2,7 +2,7 @@ import { Calendar, MapPin, Clock, Ticket, ArrowRight } from 'lucide-react';
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden" id="hero">
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-10 left-10 w-20 h-20 bg-pink-200 rounded-full opacity-60 animate-bounce"></div>
@@ -13,7 +13,7 @@ export default function HeroSection() {
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-pink-500 via-yellow-500 to-green-500 bg-clip-text text-transparent mb-4 animate-pulse">
+          <h1 className="text-5xl md:text-7xl p-2 font-bold bg-gradient-to-r from-pink-500 via-yellow-500 to-green-500 bg-clip-text text-transparent mb-4 animate-pulse">
             Spring Carnival
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-6 font-medium">

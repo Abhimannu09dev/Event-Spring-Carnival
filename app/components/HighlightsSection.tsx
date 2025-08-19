@@ -2,7 +2,7 @@ import { Music, Utensils, Gamepad2, Users, Star, Ticket } from 'lucide-react';
 
 export default function HighlightsSection() {
   return (
-    <section className="py-16 px-4 bg-gradient-to-br from-yellow-50 to-pink-50">
+    <section className="py-16 px-4 bg-gradient-to-br from-yellow-50 to-pink-50" id='highlights'>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Event Highlights</h2>

@@ -2,7 +2,7 @@ import { MapPin, Phone, Mail, ExternalLink } from 'lucide-react';
 
 export default function VenueSection() {
   return (
-    <section className="py-16 px-4 bg-gradient-to-br from-green-50 to-blue-50">
+    <section className="py-16 px-4 bg-gradient-to-br from-green-50 to-blue-50" id='venue'>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Venue & Location</h2>
