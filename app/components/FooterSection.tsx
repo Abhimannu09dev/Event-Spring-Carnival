@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Instagram, Facebook, Twitter } from 'lucide-react';
+import { Phone, Mail, MapPin, Instagram, Facebook } from 'lucide-react';
 
 export default function FooterSection() {
   return (
@@ -34,14 +34,11 @@ export default function FooterSection() {
           <div>
             <h4 className="text-xl font-bold mb-4">Follow Us</h4>
             <div className="flex gap-4">
-              <a href="#" className="bg-pink-500 hover:bg-pink-600 p-3 rounded-full transition-colors">
+              <a href="https://www.instagram.com/islingtoncollege/" className="bg-pink-500 hover:bg-pink-600 p-3 rounded-full transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="bg-blue-500 hover:bg-blue-600 p-3 rounded-full transition-colors">
+              <a href="https://www.facebook.com/IslingtonCollege/" className="bg-blue-500 hover:bg-blue-600 p-3 rounded-full transition-colors">
                 <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="bg-cyan-500 hover:bg-cyan-600 p-3 rounded-full transition-colors">
-                <Twitter className="w-5 h-5" />
               </a>
             </div>
           </div>

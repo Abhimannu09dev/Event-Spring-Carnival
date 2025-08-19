@@ -33,7 +33,7 @@ export default function HeroSection() {
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-6 h-6 text-blue-500" />
-             而成            <span className="font-semibold">Islington College Campus</span>
+              <span className="font-semibold">Islington College</span>
             </div>
           </div>
 
